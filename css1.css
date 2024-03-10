@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.navbar-head{
+    margin-left: 120px;
+}
+
+.no{
+    text-decoration: none;
+}
+
+.parallax01{
+    background-image: url(./IMAGES/solar\ sys.jpg);
+    min-height: 550px;
+    width: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax1{
+    background-image: url(./IMAGES/sun\ surface.jpg);
+    min-height: 500px;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax2{
+    background-image: url(./IMAGES/1.mercury.jpg);
+    min-height: 400px;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax3{
+    background-image: url(./IMAGES/2.venus.jpg);
+    min-height: 400px;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax4{
+    background-image: url(./IMAGES/3.earth.jpg);
+    min-height: 400px;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax5{
+    background-image: url(./IMAGES/4.mars.jpg);
+    min-height: 400px;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax6{
+    background-image: url(./IMAGES/5.jupiter.jpeg);
+    min-height: 400px;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax7{
+    background-image: url(./IMAGES/6.saturn.jpeg);
+    min-height: 400px;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax8{
+    background-image: url(./IMAGES/7.uranus.jpg);
+    min-height: 400px;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax9{
+    background-image: url(./IMAGES/8.neptune.jpg);
+    min-height: 400px;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax10{
+    background-image: url(./IMAGES/ab\ set1.jpg);
+    min-height: 400px;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax11{
+    background-image: url(./IMAGES/meteor.jpg);
+    min-height: 400px;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.uparrow{
+    position: absolute;
+    margin-left: 1100px;
+    margin-top: -30px;
+}
+.icons{
+    position: absolute;
+    margin-left: 550px;
+}
+
+#icon1{
+    margin-left: 400px;
+}
+#icon2{
+    margin-left: 700px;
+}
+.icons:hover{
+    background-image: linear-gradient(to top right,blue,orange,green);
+}
+.icons:hover .brand{
+    animation: rotate 2s;
+}
+@keyframes rotate{
+    0%{
+       transform: rotate(50deg);
+    }
+    50%{
+       transform: rotate(-50deg);
+    }
+    100%{
+        transform: rotate(50deg);
+    }
+
+}
